@@ -3,6 +3,7 @@ int main()
 {
     FILE * fp = NULL;
 
+    // Opens the file for appending. Contents are preserved, and new data is added to the end.
     fp = fopen("Hridoy.txt", "a");
 
     if(fp == NULL){
