@@ -4,7 +4,7 @@ int main()
     FILE * fp = NULL;
 
     // Opens the file for writing. Erases existing contents, creating a new empty file.
-    fp = fopen("Hridoy.txt", "w");
+    fp = fopen("text.txt", "w");
 
     if(fp == NULL)
     {
