@@ -1,3 +1,5 @@
+// only the mode r, r+ return NULL while other mode create a new file if not exists
+
 #include<stdio.h>
 int main()
 {
