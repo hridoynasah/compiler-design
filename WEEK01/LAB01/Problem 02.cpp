@@ -1,3 +1,5 @@
+// Problem 02: Write a program that will count the number of white spaces from a string.
+
 #include<iostream>
 using namespace std;
 
